@@ -32,7 +32,7 @@ Os arquivos em `dados/brutos/` são cópias sem nenhuma alteração.
 
 ### Dicionário de variáveis (interpretado pela equipe)
 
-A base não traz dicionário de variáveis. O significado abaixo foi inferido pela equipe a partir da estrutura dos dados e do resumo dos autores:
+A base não traz dicionário de variáveis nem artigo associado. O significado abaixo foi inferido pela equipe a partir da estrutura dos dados e da descrição curta do registro no Zenodo:
 
 | Coluna | Significado | Valores |
 | --- | --- | --- |
@@ -47,7 +47,11 @@ A base não traz dicionário de variáveis. O significado abaixo foi inferido pe
 | `item_jol` | Julgamento de aprendizagem da pergunta | 1 a 4 |
 | `day1_response_time_sec` | Tempo de resposta na prática | segundos |
 
-O intervalo entre a prática e o teste final **não foi informado pelos autores**.
+### Limitações da base
+
+- **Participantes não descritos:** o registro não informa quem eram os participantes (perfil, curso, idade, universidade). Assumimos, sem confirmação, que são estudantes universitários, pelo contexto do laboratório da University of Arizona.
+- **Intervalo do teste final:** o intervalo entre a prática e o teste final **não foi informado pelos autores**.
+- **Sem dicionário:** o significado das colunas foi inferido pela equipe (tabela acima).
 
 ## Estrutura do repositório
 
